@@ -18,18 +18,43 @@ function setup() {
   // fill(255);
   // noStroke();
   // text('train', 100, 200);
-
-  var points = font.textToPoints('train', 100, 200, 192, {
-    sampleFactor: 0.25
+  frameRate(30)
+  var happy = font.textToPoints('Happy', 70, 200, 92, {
+    sampleFactor: 0.5
   });
 
-  for (var i = 0; i < points.length; i++) {
-    var pt = points[i];
+  for (var i = 0; i < happy.length; i++) {
+    var pt = happy[i];
     var vehicle = new Vehicle(pt.x, pt.y);
     vehicles.push(vehicle);
-    // stroke(255);
-    // strokeWeight(8);
-    // point(pt.x, pt.y);
+  }
+  var happy = font.textToPoints('Birthday', 20, 300, 92, {
+    sampleFactor: 0.5
+  });
+
+  for (var i = 0; i < happy.length; i++) {
+    var pt = happy[i];
+    var vehicle = new Vehicle(pt.x, pt.y);
+    vehicles.push(vehicle);
+  }
+  var happy = font.textToPoints('Potti', 90, 400, 92, {
+    sampleFactor: 0.5
+  });
+
+  for (var i = 0; i < happy.length; i++) {
+    var pt = happy[i];
+    var vehicle = new Vehicle(pt.x, pt.y);
+    vehicles.push(vehicle);
+  }
+
+  var happy = font.textToPoints('Tilla', 100, 500, 92, {
+    sampleFactor: 0.5
+  });
+
+  for (var i = 0; i < happy.length; i++) {
+    var pt = happy[i];
+    var vehicle = new Vehicle(pt.x, pt.y);
+    vehicles.push(vehicle);
   }
 }
 

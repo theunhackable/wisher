@@ -16,7 +16,7 @@ class Vehicle {
   
     behaviors() {
       var arrive = this.arrive(this.target);
-      var mouse = createVector(accelerationX, accelerationY);
+      var mouse = createVector(mouseX, mouseY);
       var flee = this.flee(mouse);
   
       arrive.mult(1);

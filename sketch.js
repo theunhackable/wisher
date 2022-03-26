@@ -18,7 +18,7 @@ function setup() {
   // fill(255);
   // noStroke();
   // text('train', 100, 200);
-  frameRate(30)
+  frameRate(60)
   var happy = font.textToPoints('Happy', 70, 200, 92, {
     sampleFactor: 0.5
   });

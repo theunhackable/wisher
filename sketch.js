@@ -37,17 +37,7 @@ function setup() {
     var vehicle = new Vehicle(pt.x, pt.y);
     vehicles.push(vehicle);
   }
-  var happy = font.textToPoints('Potti', 90, 400, 92, {
-    sampleFactor: 0.5
-  });
-
-  for (var i = 0; i < happy.length; i++) {
-    var pt = happy[i];
-    var vehicle = new Vehicle(pt.x, pt.y);
-    vehicles.push(vehicle);
-  }
-
-  var happy = font.textToPoints('Tilla', 100, 500, 92, {
+  var happy = font.textToPoints('Mowa', 90, 400, 92, {
     sampleFactor: 0.5
   });
 

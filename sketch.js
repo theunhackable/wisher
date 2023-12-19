@@ -37,7 +37,7 @@ function setup() {
     var vehicle = new Vehicle(pt.x, pt.y);
     vehicles.push(vehicle);
   }
-  var happy = font.textToPoints('Mowa', 90, 400, 92, {
+  var happy = font.textToPoints('pottey', 90, 400, 92, {
     sampleFactor: 0.5
   });
 
